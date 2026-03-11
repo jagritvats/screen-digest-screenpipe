@@ -2,7 +2,8 @@
 
 A [screenpipe](https://github.com/mediar-ai/screenpipe) pipe that summarizes your workday by analyzing your screen activity. Get a structured breakdown of what you did, which apps you used, and key activities — all from your local screen recordings.
 
-<img width="713" height="659" alt="image" src="https://github.com/user-attachments/assets/59fd0ffa-809a-498b-b731-09166e1b27ce" />
+<img width="1256" height="689" alt="image" src="https://github.com/user-attachments/assets/5b06aaef-0c18-425f-a102-52aca630c430" />
+
 
 ## What it does
 
