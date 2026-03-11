@@ -1,0 +1,71 @@
+{
+  "id": "1773265476769-poavgx",
+  "timestamp": "2026-03-11T21:44:36.769Z",
+  "timeRange": "4 hours",
+  "summaryStyle": "concise",
+  "markdown": "Here's a summary of your activity over the last 4 hours:\n\n*   Worked on `index.ts` within the `nexusalgo` project in Visual Studio Code for 420 minutes.\n*   Fixed a race condition in the authentication flow using `git commit -m 'fix: resolve race condition in auth flow'`.\n*   Implemented a debouncing solution using React via Stack Overflow.\n*   Developed and deployed the `daily-screen-digest` application via Docker Compose.\n*   Reviewed a pending Pull Request on Slack’s #engineering channel.\n*   Utilized Claude AI for implementation assistance.\n*   Spent time preparing for a System Design Interview via YouTube and Stack Overflow.\n*   Installed `@screenpipe/js` via npm.\n*   Edited Visual Studio Code settings using `settings.json`.\n*   Formatted code using VS Code's editor format on save feature.",
+  "focusMetrics": {
+    "contextSwitches": 13,
+    "longestStreakApp": "Terminal",
+    "longestStreakMinutes": 255,
+    "uniqueApps": 7
+  },
+  "categoryStats": [
+    {
+      "category": "development",
+      "totalMinutes": 1050,
+      "totalCount": 13,
+      "apps": [
+        {
+          "name": "Visual Studio Code",
+          "minutes": 420,
+          "count": 5
+        },
+        {
+          "name": "Terminal",
+          "minutes": 315,
+          "count": 4
+        },
+        {
+          "name": "VS Code",
+          "minutes": 315,
+          "count": 4
+        }
+      ]
+    },
+    {
+      "category": "browsing",
+      "totalMinutes": 1050,
+      "totalCount": 13,
+      "apps": [
+        {
+          "name": "Google Chrome",
+          "minutes": 420,
+          "count": 5
+        },
+        {
+          "name": "Chrome",
+          "minutes": 315,
+          "count": 4
+        },
+        {
+          "name": "Firefox",
+          "minutes": 315,
+          "count": 4
+        }
+      ]
+    },
+    {
+      "category": "communication",
+      "totalMinutes": 315,
+      "totalCount": 4,
+      "apps": [
+        {
+          "name": "Slack",
+          "minutes": 315,
+          "count": 4
+        }
+      ]
+    }
+  ]
+}
