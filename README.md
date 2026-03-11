@@ -1,7 +1,11 @@
 # 📋 Daily Screen Digest
 
 A [screenpipe](https://github.com/mediar-ai/screenpipe) pipe that summarizes your workday by analyzing your screen activity. Get a structured breakdown of what you did, which apps you used, and key activities — all from your local screen recordings.
+New
+<img width="1244" height="688" alt="image" src="https://github.com/user-attachments/assets/bc03defd-41ea-488e-812a-edfd60762636" />
+<img width="1241" height="614" alt="image" src="https://github.com/user-attachments/assets/60bed40e-4ef4-42fe-ab72-32cf31674593" />
 
+Old
 <img width="1256" height="689" alt="image" src="https://github.com/user-attachments/assets/5b06aaef-0c18-425f-a102-52aca630c430" />
 
 
