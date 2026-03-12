@@ -305,6 +305,7 @@ export default function Home() {
     new Set()
   );
   const [searchFilter, setSearchFilter] = useState("");
+  const [usageCollapsed, setUsageCollapsed] = useState(true);
 
   // save state
   const [saving, setSaving] = useState(false);
@@ -1376,27 +1377,37 @@ export default function Home() {
               </div>
             )}
 
-            {/* category breakdown — collapsible */}
+            {/* category breakdown — collapsed by default */}
             {filteredCategoryStats.length > 0 && (
-              <div style={{ marginBottom: 28 }}>
-                <div
+              <div style={{ marginBottom: usageCollapsed ? 12 : 28 }}>
+                <button
+                  onClick={() => setUsageCollapsed((p) => !p)}
                   style={{
                     display: "flex",
                     justifyContent: "space-between",
+                    alignItems: "center",
+                    width: "100%",
                     fontSize: 13,
                     color: "#888",
-                    marginBottom: 14,
-                    paddingBottom: 10,
+                    background: "transparent",
+                    border: "none",
+                    padding: "0 0 10px 0",
                     borderBottom: "1px solid #1a1a1a",
+                    marginBottom: usageCollapsed ? 0 : 14,
+                    cursor: "pointer",
                   }}
                 >
                   <span>
+                    <span style={{ fontSize: 10, color: "#555", marginRight: 8 }}>
+                      {usageCollapsed ? ">" : "v"}
+                    </span>
                     {categoryStats.reduce((s, c) => s + c.apps.length, 0)} apps,{" "}
                     {totalCaptures} captures
                   </span>
                   <span>~{totalMinutes} min total</span>
-                </div>
+                </button>
 
+                {!usageCollapsed && (<>
                 {filteredCategoryStats.map((cat) => {
                   const catPct =
                     totalMinutes > 0
@@ -1553,6 +1564,7 @@ export default function Home() {
                     {audioGroups.length > 1 ? "s" : ""} included
                   </div>
                 )}
+                </>)}
               </div>
             )}
 

@@ -1,0 +1,7 @@
+{
+  "name": "daily-screen-digest",
+  "version": "0.1.0",
+  "description": "Summarize your workday from screen recordings with app usage stats, focus metrics, and AI summaries via Ollama",
+  "author": "jagritvats",
+  "is_nextjs": true
+}
